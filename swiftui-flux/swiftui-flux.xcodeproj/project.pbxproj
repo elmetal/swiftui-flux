@@ -22,6 +22,7 @@
 		68D3B48F22F98190006E0DC9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3B48E22F98190006E0DC9 /* SettingsView.swift */; };
 		68D3B49122F9820C006E0DC9 /* SingleViewDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3B49022F9820C006E0DC9 /* SingleViewDispatcher.swift */; };
 		68D3B49322F982CF006E0DC9 /* SingleViewActionCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3B49222F982CF006E0DC9 /* SingleViewActionCreator.swift */; };
+		A4638C3E22F9D702005A8D8B /* DebugIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4638C3D22F9D702005A8D8B /* DebugIndex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		68D3B48E22F98190006E0DC9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		68D3B49022F9820C006E0DC9 /* SingleViewDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewDispatcher.swift; sourceTree = "<group>"; };
 		68D3B49222F982CF006E0DC9 /* SingleViewActionCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewActionCreator.swift; sourceTree = "<group>"; };
+		A4638C3D22F9D702005A8D8B /* DebugIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugIndex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		68D3B45222F97B46006E0DC9 /* swiftui-flux */ = {
 			isa = PBXGroup;
 			children = (
+				A4638C3D22F9D702005A8D8B /* DebugIndex.swift */,
 				68D3B48522F97C59006E0DC9 /* SingleView */,
 				68D3B45322F97B46006E0DC9 /* AppDelegate.swift */,
 				68D3B45522F97B46006E0DC9 /* SceneDelegate.swift */,
@@ -320,6 +323,7 @@
 				68D3B48B22F98075006E0DC9 /* SingleViewAction.swift in Sources */,
 				68D3B45622F97B46006E0DC9 /* SceneDelegate.swift in Sources */,
 				68D3B48922F97FA1006E0DC9 /* SettingButton.swift in Sources */,
+				A4638C3E22F9D702005A8D8B /* DebugIndex.swift in Sources */,
 				68D3B49122F9820C006E0DC9 /* SingleViewDispatcher.swift in Sources */,
 				68D3B45822F97B46006E0DC9 /* ContentView.swift in Sources */,
 			);

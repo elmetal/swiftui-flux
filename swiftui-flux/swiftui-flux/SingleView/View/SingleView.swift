@@ -18,7 +18,7 @@ struct SingleView: View {
                 SettingButton()
                 SettingsView()
             }
-        }
+        }.navigationBarTitle(Text("SingleView"))
     }
 }
 
