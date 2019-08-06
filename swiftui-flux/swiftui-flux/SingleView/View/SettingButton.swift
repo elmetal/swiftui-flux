@@ -10,7 +10,6 @@ import SwiftUI
 
 struct SettingButton: View {
     private var actionCreator: SingleViewActionCreator
-    @ObservedObject var store: SingleViewStore = .shared
     
     init(actionCreator: SingleViewActionCreator = .init()) {
         self.actionCreator = actionCreator

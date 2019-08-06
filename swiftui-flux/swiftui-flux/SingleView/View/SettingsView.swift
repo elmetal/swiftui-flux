@@ -17,14 +17,14 @@ struct SettingsView: View {
     }
     
     var body: some View {
-        VStack {
+        VStack { // hack show/hide views. looking for a better way
             if self.store.isSettingShown {
                 Text("Setting 🐱").onTapGesture {
                     self.actionCreator.updateShownSetting()
-                }
+                }.border(Color.black, width: 2).cornerRadius(8).padding()
                 Text("Setting 🐶").onTapGesture {
                     self.actionCreator.updateShownSetting()
-                }
+                    }.border(Color.blue).padding()
             } else {
                 Text("Setting 🐱").hidden()
                 Text("Setting 🐶").hidden()
