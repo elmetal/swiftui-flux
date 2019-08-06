@@ -168,9 +168,8 @@
 		68D3B48422F97C45006E0DC9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A4638C3F22F9E236005A8D8B /* Component */,
 				68D3B48622F97E7E006E0DC9 /* SingleView.swift */,
-				68D3B48822F97FA1006E0DC9 /* SettingButton.swift */,
-				68D3B48E22F98190006E0DC9 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +181,15 @@
 				68D3B48322F97C37006E0DC9 /* Flux */,
 			);
 			path = SingleView;
+			sourceTree = "<group>";
+		};
+		A4638C3F22F9E236005A8D8B /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				68D3B48822F97FA1006E0DC9 /* SettingButton.swift */,
+				68D3B48E22F98190006E0DC9 /* SettingsView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
