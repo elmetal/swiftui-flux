@@ -325,6 +325,8 @@
 				68D3B48922F97FA1006E0DC9 /* SettingButton.swift in Sources */,
 				A4638C3E22F9D702005A8D8B /* DebugIndex.swift in Sources */,
 				68D3B49122F9820C006E0DC9 /* SingleViewDispatcher.swift in Sources */,
+				68D3B45422F97B46006E0DC9 /* AppDelegate.swift in Sources */,
+				68D3B45622F97B46006E0DC9 /* SceneDelegate.swift in Sources */,
 				68D3B45822F97B46006E0DC9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
