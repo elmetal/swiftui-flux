@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		68D3B45422F97B46006E0DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3B45322F97B46006E0DC9 /* AppDelegate.swift */; };
 		68D3B45622F97B46006E0DC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3B45522F97B46006E0DC9 /* SceneDelegate.swift */; };
-		68D3B45822F97B46006E0DC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D3B45722F97B46006E0DC9 /* ContentView.swift */; };
 		68D3B45A22F97B48006E0DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D3B45922F97B48006E0DC9 /* Assets.xcassets */; };
 		68D3B45D22F97B48006E0DC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68D3B45C22F97B48006E0DC9 /* Preview Assets.xcassets */; };
 		68D3B46022F97B48006E0DC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68D3B45E22F97B48006E0DC9 /* LaunchScreen.storyboard */; };
@@ -46,7 +45,6 @@
 		68D3B45022F97B46006E0DC9 /* swiftui-flux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-flux.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		68D3B45322F97B46006E0DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68D3B45522F97B46006E0DC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		68D3B45722F97B46006E0DC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68D3B45922F97B48006E0DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68D3B45C22F97B48006E0DC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		68D3B45F22F97B48006E0DC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -119,7 +117,6 @@
 				68D3B48522F97C59006E0DC9 /* SingleView */,
 				68D3B45322F97B46006E0DC9 /* AppDelegate.swift */,
 				68D3B45522F97B46006E0DC9 /* SceneDelegate.swift */,
-				68D3B45722F97B46006E0DC9 /* ContentView.swift */,
 				68D3B45922F97B48006E0DC9 /* Assets.xcassets */,
 				68D3B45E22F97B48006E0DC9 /* LaunchScreen.storyboard */,
 				68D3B46122F97B48006E0DC9 /* Info.plist */,
@@ -335,7 +332,6 @@
 				68D3B49122F9820C006E0DC9 /* SingleViewDispatcher.swift in Sources */,
 				68D3B45422F97B46006E0DC9 /* AppDelegate.swift in Sources */,
 				68D3B45622F97B46006E0DC9 /* SceneDelegate.swift in Sources */,
-				68D3B45822F97B46006E0DC9 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
